@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Low Red</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="./includeLogic.js"></script>
+  </head>
+  <body>
+    <div class="mobile-alert">
+      <p>Questa pagina web è disponibile solo su desktop.</p>
+    </div>
+    <div class="disclaimer">
+      <p>
+        Attenzione! Questo sito web non è ufficiale o legato a Low-Red in nessun modo ed è stato realizzato solo per
+        un compito scolastico, per maggiori informazioni guarda la
+        <a href="https://github.com/SysWhiteDev" target="_blank"
+          >repository GitHub</a
+        >.
+      </p>
+    </div>
+    <div include-html="header.html"></div>
+    <div include-html="bio.html"></div>
+    <div include-html="events.html"></div>
+    <div include-html="disks.html"></div>
+    <div include-html="gallery.html"></div>
+    <span class="footer">
+      Made with ❤️ by <a href="https://github.com/SysWhiteDev" target="_blank"
+        >SysWhite</a
+      >
+    </span>
+  </body>
+  <script>
+    includeHTML();
+  </script>
+</html>

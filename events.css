@@ -1,0 +1,47 @@
+.events {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 0fr));
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .event-wrap {
+    height: 240px;
+    width: 400px;
+    background: rgb(28, 28, 28);
+    border-radius: 10px;
+    border: 1px solid rgb(50, 50, 50);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .event-wrap:hover {
+    transform: scale(1.02);
+  }
+  
+  .event-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 100%;
+    padding: 15px 20px;
+    background: rgba(27, 27, 27, 0.9);
+  }
+  
+  .event-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .event-description {
+    font-size: 14px;
+    opacity: 0.8;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  }
